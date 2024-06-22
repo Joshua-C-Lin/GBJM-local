@@ -389,6 +389,9 @@ input{
         width: 90%;
         margin: 0 auto;
     }
+    .main-navigation{
+        display: none;
+    }
 }
 
 .site-header__menu-trigger {
@@ -416,18 +419,7 @@ input{
   }
   @media (max-width: 380px) {
     .awards-list {
-        visibility: hidden;
+        display: none;
         width: 0;
-    }
-    .company-award p{
-        visibility: hidden;
-        width: 0;
-    }
-    .company-award{
-        visibility: hidden;
-        width: 0;
-    }
-    .main-navigation ul{
-        width: 100px;
     }
   }
